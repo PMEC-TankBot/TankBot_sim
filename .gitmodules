@@ -1,0 +1,3 @@
+[submodule "modules/tankbot_description"]
+	path = modules/tankbot_description
+	url = https://github.com/PMEC-TankBot/tankbot_description.git

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tankbot_gazebo</name>
+  <version>0.0.0</version>
+  <description>The TankBot_gazebo package</description>
+  <maintainer email="todo@todo.com">author</maintainer>
+  <license>TODO: License declaration</license>
+
+  <!-- ferramenta de build -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- dependências de tempo de execução -->
+  <depend>gazebo_ros</depend>
+  <depend>xacro</depend>
+  <depend>rviz2</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
